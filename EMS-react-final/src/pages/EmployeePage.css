@@ -1,0 +1,135 @@
+.employee-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.employee-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.employee-nav h2 {
+  margin: 0;
+}
+
+.employee-nav button {
+  margin-left: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.employee-nav button:hover {
+  background-color: #0d6efd;
+}
+
+.logout-btn {
+  background-color: #ff4d4d;
+}
+
+.logout-btn:hover {
+  background-color: #e60000;
+}
+
+.employee-container {
+  overflow-x: auto;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ddd;
+  padding: 12px 10px;
+  text-align: left;
+}
+
+.employee-table th {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.employee-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.employee-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.update-btn,
+.delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.update-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.update-btn:hover {
+  background-color: #45a049;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #e60000;
+}
+
+.employee-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 900px;
+  margin-top: 20px;
+}
+
+.employee-form input,
+.employee-form select {
+  flex: 1 1 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.employee-form button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1e90ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.employee-form button:hover {
+  background-color: #0d6efd;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
