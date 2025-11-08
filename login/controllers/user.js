@@ -48,8 +48,9 @@ const createUser = async (req, res) => {
     console.log(req.body)
   let conn;
   try {
+    const userid = req.user.userId; 
     const {
-      userid,
+      
       first_name,
       last_name,
       gender,
